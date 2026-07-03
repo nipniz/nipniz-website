@@ -9,33 +9,36 @@
 body {
   margin: 0;
   font-family: 'NPNZ', Arial, sans-serif;
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 1.6;
   background: #fff;
   color: #111;
-  line-height: 1.4;
 }
 
 /* LOGO */
 .logo {
   position: fixed;
-  font-size: 24px;
+  top: 20px;
+  left: 20px;
+  font-size: 48px;
   letter-spacing: 2px;
 }
 
 /* NAV */
 .nav {
   position: fixed;
-  top: 60px;
+  top: 120px;
   left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
+  font-size: 18px;
 }
 
 .nav a {
   text-decoration: none;
   color: #111;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .nav a:hover {
@@ -44,8 +47,8 @@ body {
 
 /* MAIN */
 main {
-  margin-left: 180px;
-  padding: 60px 40px;
+  margin-left: 260px;
+  padding: 120px 40px;
 }
 
 /* SECTIONS */
@@ -54,7 +57,7 @@ main {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -73,7 +76,7 @@ h2 {
 }
 
 .card p {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 8px;
   opacity: 0.7;
 }
@@ -81,12 +84,16 @@ h2 {
 /* TEXT */
 .text {
   max-width: 400px;
-  font-size: 14px;
+  font-size: 18px;
   opacity: 0.8;
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+
   main {
     margin-left: 0;
     padding: 100px 20px;
@@ -101,5 +108,10 @@ h2 {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .logo {
+    position: static;
+    margin: 20px;
   }
 }
