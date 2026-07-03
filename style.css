@@ -7,9 +7,9 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'NPNZ', Arial, sans-serif;
-  font-size: 18px; /* kannst du größer machen z. B. 22px */
+  font-family: 'NPNZ';
+  font-size: 80px;
+}
   background: #fff;
   color: #111;
   line-height: 1.4;
