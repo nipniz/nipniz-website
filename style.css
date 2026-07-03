@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: 'NPNZ', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   background: #fff;
   color: #111;
   line-height: 1.4;
@@ -18,7 +18,7 @@ body {
 /* LOGO */
 .logo {
   position: fixed;
-  font-size: 100px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 
