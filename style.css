@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 
@@ -34,7 +34,7 @@ body {
 .nav a {
   text-decoration: none;
   color: #111;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .nav a:hover {
@@ -53,7 +53,7 @@ main {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .card p {
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 8px;
   opacity: 0.7;
 }
@@ -80,7 +80,7 @@ h2 {
 /* TEXT */
 .text {
   max-width: 400px;
-  font-size: 14px;
+  font-size: 18px;
   opacity: 0.8;
 }
 
