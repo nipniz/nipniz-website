@@ -17,7 +17,7 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  font-size: 50px;
+  font-size: 100px;
   letter-spacing: 2px;
 }
 
@@ -34,7 +34,7 @@ body {
 .nav a {
   text-decoration: none;
   color: #111;
-  font-size: 24px;
+  font-size: 100px;
 }
 
 .nav a:hover {
