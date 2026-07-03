@@ -1,12 +1,16 @@
 @font-face {
   font-family: 'NPNZ';
-  src: url('./fonts/npnz-font.ttf') format('truetype');
+  src: url('./fonts/npnz-font.woff2') format('woff2'),
+       url('./fonts/npnz-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
 }
 
 body {
   margin: 0;
-  font-family: 'NPNZ', Arial, sans serif
+  font-family: 'NPNZ', Arial, sans-serif;
+  font-size: 18px; /* kannst du größer machen z. B. 22px */
   background: #fff;
   color: #111;
   line-height: 1.4;
